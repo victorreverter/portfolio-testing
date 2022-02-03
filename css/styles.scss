@@ -402,6 +402,16 @@ a {
 
 // Media Queries
 
+@media (orientation: landscape) {
+    html, body {
+        background-size: 70%;
+    }
+
+    .menu-options {
+        background-size: 70%;
+    }
+}
+
 // Iphone 6/7/8 Plus Landscape
 @media (min-width: $breakOneHeight) and (min-height:$breakOneWidth) and (orientation: landscape) {
     #footer {
@@ -421,6 +431,14 @@ a {
 
 // Iphone X Landscape
 @media (min-width: $breakThreeHeight) and (min-height:$breakThreeWidth) and (orientation: landscape) {    
+    html, body {
+        background-size: 60%;
+    }
+
+    .menu-options {
+        background-size: 60%;
+    }
+    
     #footer {
         .container-links {
             width: 35%;
