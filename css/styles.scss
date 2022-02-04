@@ -25,6 +25,43 @@ a {
     text-decoration: none;
 }
 
+.veil-close {
+    display: block;
+    width: 105%;
+    min-height: 110vh;
+
+    background: $darkBg;
+    background-repeat: repeat;
+    background-size: 70%;
+
+    // opacity: 0.5;
+
+    position: absolute;
+    top: 50%;
+    left: -60%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+
+    h1 {
+        display: block;
+        width: 90%;
+        font-size: 2em;
+        color: $colorText;
+        
+        text-decoration: underline;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.closeVeilOut {
+    transition: 0.5s;
+    left: 50%;
+}
+
 .head-container {
     display: flex;
     flex-direction: row;
@@ -488,6 +525,14 @@ a {
 @media (min-width: $breakFourHeight) and (min-height: $breakFourWidth) and (orientation: landscape) {
     html, body {
         background-size: 50%;
+    }
+
+    .veil-close {
+        background-size: 35%;
+
+        h1 {
+            font-size: 3em;
+        }
     }
 
     .left-panel, .right-panel {

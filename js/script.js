@@ -1,5 +1,12 @@
 // Animate Dark / Light Mode
 
+//Veil Animation
+const wrap = document.querySelector('.wrap');
+const VEIL_CLOSE = document.querySelector('#veilClose')
+
+wrap.addEventListener('click', () => {
+    VEIL_CLOSE.classList.add('closeVeilOut');
+});
 
 // Footer Activation
 
