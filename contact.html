@@ -15,6 +15,10 @@
 </head>
 <body>
     <div class="wrap">
+
+        <!-- <div id="veilClose" class="veil-close closeVeilOut">
+            <h1 id="text-veil-content">About</h1>
+        </div> -->
     
         <div class="head-container">
             <a href="index.html" class="logo-home">
@@ -70,5 +74,12 @@
 
     CONTACT_D_LINK.classList.add('l-m-d-active');
     CONTACT_M_LINK.classList.add('l-m-m-active');
+
+    const VEIL_TEXT = document.querySelectorAll('#text-veil-content');
+    
+    setTimeout(() => {
+        VEIL_TEXT.classList.add('text-veil-content-visible');
+    }, 500);
+
 </script>
 </html>
