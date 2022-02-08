@@ -13,10 +13,10 @@ function reveil() {
 //     VEIL_CLOSE.classList.add('closeVeilOut');
 // });
 
-CONTACT.addEventListener('click', () => {
-    // reveil();
-    VEIL_CLOSE.classList.add('closeVeilOut');
-});
+// CONTACT.addEventListener('click', () => {
+//     // reveil();
+//     VEIL_CLOSE.classList.add('closeVeilOut');
+// });
 
 
 

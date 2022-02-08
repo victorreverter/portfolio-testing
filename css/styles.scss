@@ -39,48 +39,50 @@ a {
     text-decoration: none;
 }
 
-// .veil-close {
-//     display: block;
-//     width: 105%;
-//     min-height: 105vh;
+.veil-standard {
+    display: block;
+    width: 105%;
+    min-height: 105vh;
 
-//     background: $darkBg;
-//     background-repeat: repeat;
-//     background-size: 70%;
+    background: $darkBg;
+    background-repeat: repeat;
+    background-size: 70%;
 
-//     // opacity: 0.5;
+    // opacity: 0.5;
 
-//     position: absolute;
-//     top: 0%;
-//     left: -60%;
-//     transform: translate(-50%, 0%);
-//     z-index: 1000;
+    // position: absolute;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1000;
 
-//     #text-veil-content {
-//         display: none;
-//         width: 90%;
-//         font-size: 2em;
-//         color: $colorText;
+    h1 {
+        display: block;
+        width: 90%;
+        font-size: 2em;
+        line-height: 1.8em;
+        color: $colorText;
         
-//         text-decoration: underline;
+        // text-decoration: underline;
 
-//         position: absolute;
-//         top: 50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//     }
-// }
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
 
-// .closeVeilOut {
-//     transition: 0.5s;
-//     left: 50%;
-//     position: fixed;
-// }
+.closeVeilOut {
+    transition: 1.2s;
+    left: -60%;
+    position: absolute;
 
-// .text-veil-content-visible {
-//     display: block !important;
-//     transition: 0.3s !important;
-// }
+    h1 {
+        transition: 1s;
+        opacity: 0;
+    }
+}
 
 .head-container {
     display: flex;
@@ -547,13 +549,19 @@ a {
         background-size: 50%;
     }
 
-    .veil-close {
+    .veil-standard {
         background-size: 35%;
-
+        
         h1 {
-            font-size: 3em;
+            font-size: 4em;
         }
     }
+    
+    // .closeVeilOut {
+    //     transition: 1.6s;
+    //     left: -60%;
+    //     position: absolute;
+    // }
 
     .left-panel, .right-panel {
         background-size: 100% !important;

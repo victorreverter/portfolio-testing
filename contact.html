@@ -16,9 +16,9 @@
 <body>
     <div class="wrap">
 
-        <!-- <div id="veilClose" class="veil-close closeVeilOut">
-            <h1 id="text-veil-content">About</h1>
-        </div> -->
+        <div id="veilStandard" class="veil-standard">
+            <h1>Contact</h1>
+        </div>
     
         <div class="head-container">
             <a href="index.html" class="logo-home">
@@ -68,6 +68,7 @@
 <!-- Personal JS -->
 <script src="js/header.js"></script>
 <script src="js/script.js"></script>
+<script src="js/veil-animation.js"></script>
 <script>
     const CONTACT_D_LINK = document.querySelector('#contact-d-link');
     const CONTACT_M_LINK = document.querySelector('#contact-m-link');
@@ -75,11 +76,12 @@
     CONTACT_D_LINK.classList.add('l-m-d-active');
     CONTACT_M_LINK.classList.add('l-m-m-active');
 
-    const VEIL_TEXT = document.querySelectorAll('#text-veil-content');
-    
-    setTimeout(() => {
-        VEIL_TEXT.classList.add('text-veil-content-visible');
-    }, 500);
+    // const VEIL_STANDARD = document.querySelector('.veil-standard');
+
+    // setTimeout(() => {
+    //     VEIL_STANDARD.classList.add('closeVeilOut');
+    //     // alert("cocoa");
+    // }, 1400);
 
 </script>
 </html>
