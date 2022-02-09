@@ -20,3 +20,10 @@ setTimeout(() => {
 setTimeout(() => {
     enableScrolling();
 }, 2400);
+
+// Animation of Main Container
+const MAIN_CONTAINER = document.querySelector('.main-container');
+
+setTimeout(() => {
+    MAIN_CONTAINER.classList.add('visible-elem');
+}, 1700);

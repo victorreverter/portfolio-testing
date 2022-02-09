@@ -1,25 +1,5 @@
 // Animate Dark / Light Mode
 
-//Veil Animation
-const wrap = document.querySelector('.wrap');
-// const CONTACT = document.querySelector('#contact-d-link');
-const VEIL_CLOSE = document.querySelector('#veilClose')
-
-function reveil() {
-    // VEIL_CLOSE.classList.add('closeVeilOut');
-}
-
-// wrap.addEventListener('click', () => {
-//     VEIL_CLOSE.classList.add('closeVeilOut');
-// });
-
-// CONTACT.addEventListener('click', () => {
-//     // reveil();
-//     VEIL_CLOSE.classList.add('closeVeilOut');
-// });
-
-
-
 
 // Footer Activation
 

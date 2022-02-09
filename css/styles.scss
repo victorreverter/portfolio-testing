@@ -28,6 +28,8 @@ html, body {
     background-size: 100%;
 }
 
+// General Styles
+
 .wrap {
     font-family: 'Noto Sans JP', sans-serif !important;
     position: relative;
@@ -455,6 +457,12 @@ a {
 
         padding: 1em 0 0.5em;
     }
+}
+
+// Special Classes
+.visible-elem {
+    transition: 0.5s !important;
+    opacity: 1 !important;
 }
 
 // Keyframes

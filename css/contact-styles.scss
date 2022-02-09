@@ -20,7 +20,7 @@
     // left: 50%;
     // transform: translate(-50%, 0%) scale(0.9);
     transform: scale(0.9);
-    // opacity: 0;
+    opacity: 0;
     z-index: 10;
 
     .title-container {
@@ -97,6 +97,11 @@
         }
     }
 }
+
+// .visible-elem {
+//     transition: 0.5s;
+//     opacity: 1;
+// }
 
 .contact-pic {
     display: block;
