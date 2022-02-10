@@ -26,4 +26,4 @@ const MAIN_CONTAINER = document.querySelector('.main-container');
 
 setTimeout(() => {
     MAIN_CONTAINER.classList.add('visible-elem');
-}, 1700);
+}, 1800);

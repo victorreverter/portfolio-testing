@@ -48,7 +48,7 @@ a {
 
     background: $darkBg;
     background-repeat: repeat;
-    background-size: 70%;
+    background-size: 100%;
 
     // opacity: 0.5;
 
@@ -470,7 +470,7 @@ a {
 // Media Queries
 
 @media (orientation: landscape) {
-    html, body {
+    html, body, .veil-standard {
         background-size: 70%;
     }
 
@@ -498,7 +498,7 @@ a {
 
 // Iphone X Landscape
 @media (min-width: $breakThreeHeight) and (min-height:$breakThreeWidth) and (orientation: landscape) {    
-    html, body {
+    html, body, .veil-standard {
         background-size: 60%;
     }
 
@@ -515,8 +515,12 @@ a {
 
 // Ipad
 @media (min-width: $breakFourWidth) and (min-height: $breakFourHeight) {
-    html, body {
+    html, body, .veil-standard {
         background-size: 60%;
+    }
+
+    .veil-standard h1 {
+        font-size: 4em;
     }
 
     .left-panel, .right-panel {
@@ -553,12 +557,12 @@ a {
 
 // Ipad - Landscape
 @media (min-width: $breakFourHeight) and (min-height: $breakFourWidth) and (orientation: landscape) {
-    html, body {
+    html, body, .veil-standard {
         background-size: 50%;
     }
 
     .veil-standard {
-        background-size: 35%;
+        // background-size: 35%;
         
         h1 {
             font-size: 4em;
@@ -599,7 +603,7 @@ a {
 
 // Ipad Pro
 @media (min-width: $breakFiveWidth) and (min-height: $breakFiveHeight) {
-    html, body {
+    html, body, .veil-standard {
         background-size: 50%;
     }
 
@@ -655,7 +659,7 @@ a {
 
 // Desktop Big
 @media (min-width: $breakSevenWidth) {
-    html, body {
+    html, body, .veil-standard {
         background-size: 35%;
     }
 
