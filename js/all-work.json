@@ -36,6 +36,12 @@
     "link": "works/wholezzome/wholezzome.html"
   },
   {
+    "id": "recap2021",
+    "title": "Recap 2021",
+    "category": "Mixed",
+    "link": "works/recap-2021/recap-2021.html"
+  },
+  {
     "id": "potusdata",
     "title": "POTUS Data",
     "category": "Web Design",
