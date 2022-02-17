@@ -48,6 +48,12 @@
     "link": "works/potusdata/potusdata.html"
   },
   {
+    "id": "recap2019",
+    "title": "Recap 2019",
+    "category": "Mixed",
+    "link": "works/recap-2019/recap-2019.html"
+  },
+  {
     "id": "datamovie",
     "title": "Data Movie App",
     "category": "Web Design",
